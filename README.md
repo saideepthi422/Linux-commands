@@ -1,8 +1,8 @@
 I've created a Linux Commands Cheat Sheet covering essential commands. 
 
-##Linux Commands Cheat Sheet
+## Linux Commands Cheat Sheet
 
-1. File Management
+# 1. File Management
 
 ls – List files and directories
 
@@ -24,7 +24,7 @@ rm <file> – Delete a file
 
 find <dir> -name <file> – Search for a file in a directory
 
-2. File Permissions
+# 2. File Permissions
 
 ls -l – View file permissions
 
@@ -32,7 +32,7 @@ chmod 755 <file> – Change file permissions
 
 chown user:group <file> – Change file owner
 
-3. File Viewing & Editing
+# 3. File Viewing & Editing
 
 cat <file> – View file content
 
@@ -46,7 +46,7 @@ head -n <num> <file> – View first n lines
 
 tail -n <num> <file> – View last n lines
 
-4. User Management
+# 4. User Management
 
 whoami – Show current user
 
@@ -62,7 +62,7 @@ su <user> – Switch to another user
 
 sudo <command> – Run command as superuser
 
-5. Networking
+# 5. Networking
 
 ping <host> – Test network connection
 
@@ -76,7 +76,7 @@ netstat -tulnp – Show active ports
 
 ssh user@host – Connect to a remote server via SSH
 
-6. Process Management
+# 6. Process Management
 
 ps aux – Show running processes
 
@@ -94,7 +94,7 @@ bg <job> – Resume a background job
 
 fg <job> – Bring job to foreground
 
-7. System Monitoring
+# 7. System Monitoring
 
 df -h – Show disk space usage
 
@@ -106,7 +106,7 @@ uptime – Show system uptime
 
 history – Show command history
 
-8. Package Management
+# 8. Package Management
 
 Ubuntu/Debian:
 
@@ -126,7 +126,7 @@ sudo yum install <package> – Install a package
 
 sudo yum remove <package> – Remove a package
 
-9. Log Management
+# 9. Log Management
 
 cat /var/log/syslog – View system logs (Ubuntu)
 
@@ -134,7 +134,7 @@ cat /var/log/messages – View system logs (CentOS)
 
 journalctl -xe – View systemd logs
 
-10. Archiving & Compression
+# 10. Archiving & Compression
 
 tar -cvf archive.tar <files> – Create a tar archive
 
@@ -148,7 +148,7 @@ zip archive.zip <files> – Create a zip archive
 
 unzip archive.zip – Extract a zip archive
 
-11. Disk Management
+# 11. Disk Management
 
 fdisk -l – Show disk partitions
 
@@ -158,7 +158,7 @@ umount /mnt – Unmount a disk
 
 mkfs.ext4 /dev/sdX – Format a disk
 
-12. System Control
+# 12. System Control
 
 shutdown -h now – Shutdown the system
 
